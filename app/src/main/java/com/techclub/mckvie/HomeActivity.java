@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         button1= (Button) findViewById(R.id.button12);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
-        TextView tv = (TextView) this.findViewById(R.id.textViewSyllabus);
+        TextView tv = (TextView) this.findViewById(R.id.textView6);
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this);
 
